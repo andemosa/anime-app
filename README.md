@@ -1,3 +1,28 @@
+# Anime Search App
+
+This mini-project is intended to verify your proficiency with React.
+You will be building an Anime Search App. It will be a two page app. The first will be a search
+page where the users can search for their anime. Here you will display the search results. When
+the user clicks on a result, they will be taken to a second page where it shows details of the
+anime.
+For this you will be using this endpoint: [Jikan Apiary](https://jikan.docs.apiary.io/#). This is a free API endpoint
+and doesn’t require an access token.
+
+# Project Details
+
+Here are the project constraints.
+
+- Use the latest version of React (v17)
+- Use react hooks. No class based components
+- Use TypeScript.
+- Use react-router-dom
+- You are free to use any http library like fetch (axios recommended)
+- Use any UI library (@mui recommended)
+- Search page must support pagination
+- Search bar should use “instant search” mechanism. I.e search bar shouldn’t require
+  users to hit enter or press a button. You should debounce the api calls so as to not make
+  too many api calls in a short interval of time or on every keystroke. (250ms)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
